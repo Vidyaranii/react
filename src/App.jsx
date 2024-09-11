@@ -4,7 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 
-import Apple from '../table/task2'
+
+import FakeProducts from '../table/task'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
   
   return (
     <>
-<Apple/>
+<FakeProducts/>
  </>
   )
 }
