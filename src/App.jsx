@@ -4,7 +4,6 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 
-import Table from '../table/task1'
 import Apple from '../table/task2'
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
   
   return (
     <>
-  <Apple/>
+<Apple/>
  </>
   )
 }
