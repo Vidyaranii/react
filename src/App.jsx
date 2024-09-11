@@ -6,6 +6,7 @@ import './App.css'
 
 
 import FakeProducts from '../table/task'
+import BulbTask from './bulbtask/bulb'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +15,7 @@ function App() {
   
   return (
     <>
-<FakeProducts/>
+<BulbTask/>
  </>
   )
 }
