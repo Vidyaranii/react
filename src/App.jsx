@@ -5,6 +5,7 @@ import './App.css'
 
 
 import Table from '../table/task1'
+import Apple from '../table/task2'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
   
   return (
     <>
-  <Table/>
+  <Apple/>
  </>
   )
 }
