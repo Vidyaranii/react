@@ -5,7 +5,7 @@ import './App.css'
 
 
 
-import FakeProducts from '../table/task'
+
 import BulbTask from './bulbtask/bulb'
 
 function App() {
