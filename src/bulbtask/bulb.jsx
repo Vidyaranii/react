@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Button from 'react-bootstrap/Button'; 
 
 
+
 class BulbTask extends Component {
     state = {
         Data: [],  
@@ -57,9 +58,7 @@ class BulbTask extends Component {
                 <Button variant="primary" onClick={this.clickHandler}>Add Bulb</Button> 
                 <div className="container mt-5">
                     <div className="row">
-                        {/* {this.state.loading ? (
-                            <CustomDNALoader /> 
-                        ) : ( */}
+                       
                             <>
                                 <h3>Glowing Bulbs: {this.countGlowingBulbs()}</h3> 
                                 {this.state.Data.map((each, index) => (
@@ -84,7 +83,7 @@ class BulbTask extends Component {
                                     </div>
                                 ))}
                             </>
-                        {/* )} */}
+                  
                     </div>
                 </div>
             </>

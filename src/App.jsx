@@ -4,9 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import FakeProducts from '../table/task'
 import BulbTask from './bulbtask/bulb'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
 <BulbTask/>
+
  </>
   )
 }
