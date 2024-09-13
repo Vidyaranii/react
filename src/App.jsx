@@ -6,8 +6,8 @@ import './App.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import BulbTask from './bulbtask/bulb'
 
+import SeeMore from './foodrecipes/recipe';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +16,7 @@ function App() {
   
   return (
     <>
-<BulbTask/>
+<SeeMore/>
 
  </>
   )
