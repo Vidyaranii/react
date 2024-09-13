@@ -5,9 +5,9 @@ import './App.css'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ButtonList from './tasks/buttontask';
 
 
-import SeeMore from './foodrecipes/recipe';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +16,7 @@ function App() {
   
   return (
     <>
-<SeeMore/>
+<ButtonList/>
 
  </>
   )
