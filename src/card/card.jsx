@@ -5,13 +5,14 @@ import InstagramHeart from './animated';
 import InifiniteLoader from '../spinner/spinner';
 import CustomDNALoader from '../loarder/loader';
 
-function Basic({title,vidya, removeHandler,ind}) {
+function Basic({title,text, removeHandler,ind}) {
   return (
     <Card>
      
       <Card.Body>
      
         <Card.Title> {title} </Card.Title>
+        <Card.Title> {text} </Card.Title>
        
    
         <CustomDNALoader/>
