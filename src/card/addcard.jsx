@@ -16,7 +16,7 @@ class CardTask extends Component{
     }
 
     clickHandler=()=>{
-        const newData=[{name:"vijay",role:"Next js dev",salary:2000}]
+        const newData={name:"vijay",role:"Next js dev",salary:2000}
 
 
        
