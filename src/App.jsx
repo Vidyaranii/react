@@ -5,7 +5,7 @@ import './App.css'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ButtonList from './tasks/buttontask';
+import CardTask from './card/addcard';
 
 
 
@@ -16,7 +16,7 @@ function App() {
   
   return (
     <>
-<ButtonList/>
+<CardTask/>
 
  </>
   )
