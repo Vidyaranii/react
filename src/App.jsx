@@ -6,6 +6,7 @@ import './App.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import DisplayProducts from './tasks/filter';
+import Controlled from './tasks/formtable';
 
 
 
@@ -17,7 +18,7 @@ function App() {
   
   return (
     <>
-<DisplayProducts/>
+<Controlled/>
 
  </>
   )
