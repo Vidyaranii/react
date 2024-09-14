@@ -5,7 +5,8 @@ import './App.css'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CardTask from './card/addcard';
+import DisplayProducts from './tasks/filter';
+
 
 
 
@@ -16,7 +17,7 @@ function App() {
   
   return (
     <>
-<CardTask/>
+<DisplayProducts/>
 
  </>
   )
