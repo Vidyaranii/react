@@ -12,7 +12,7 @@ class BulbTask extends Component {
    
     clickHandler = () => {
         const newData = { 
-            src: "src/bulbtask/pic_bulboff.gif", 
+            src: "../src/bulbtask/pic_bulboff.gif", 
             name: `Bulb ${this.state.Data.length + 1}`,
             isOn: false 
         };
@@ -37,7 +37,7 @@ class BulbTask extends Component {
             if (idx === index) {
                 return {
                     ...item,
-                    src: item.isOn ? "src/bulbtask/pic_bulboff.gif" : "src/bulbtask/pic_bulbon.png", // Toggle the image
+                    src: item.isOn ? "../src/bulbtask/pic_bulboff.gif" : "../src/bulbtask/pic_bulbon.png", 
                     isOn: !item.isOn 
                 };
             }
