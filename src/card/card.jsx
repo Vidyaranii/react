@@ -4,17 +4,20 @@ import { Card } from 'react-bootstrap';
 import InstagramHeart from './animated';
 import InifiniteLoader from '../spinner/spinner';
 import CustomDNALoader from '../loarder/loader';
+import Example from '../tasks/shimmer';
+import Skeleton from '../tasks/skeleton';
 
 function Basic({title,text, removeHandler,ind}) {
   return (
-    <Card>
+    <Card style={{width:300}}>
      
       <Card.Body>
      
         <Card.Title> {title} </Card.Title>
         <Card.Title> {text} </Card.Title>
        
-   
+<Example/>
+<Skeleton/>
         <CustomDNALoader/>
         <InifiniteLoader color={'red'}/>
         {/* <CustomToast message={'i am card'}/> */}
