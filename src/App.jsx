@@ -5,9 +5,8 @@ import './App.css'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DisplayProducts from './tasks/filter';
-import Controlled from './tasks/formtable';
-import BulbTask from './bulbtask/bulb';
+
+import Basic from './card/card';
 
 
 
@@ -19,7 +18,7 @@ function App() {
   
   return (
     <>
-<BulbTask/>
+<Basic/>
 
  </>
   )
