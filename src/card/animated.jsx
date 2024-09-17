@@ -5,6 +5,7 @@ export default function InstagramHeart() {
   const [isClick, setClick] = useState(false);
   return (
     <div className="App">
+     
       <Heart isClick={isClick} onClick={() => setClick(!isClick)} />
     </div>
   );
