@@ -5,7 +5,8 @@ import InstagramHeart from './animated';
 import InifiniteLoader from '../spinner/spinner';
 import CustomDNALoader from '../loarder/loader';
 import Example from '../tasks/shimmer';
-import Skeleton from '../tasks/skeleton';
+import { AiFillAmazonCircle } from "react-icons/ai";
+
 
 function Basic({title,text, removeHandler,ind}) {
   return (
@@ -17,9 +18,9 @@ function Basic({title,text, removeHandler,ind}) {
         <Card.Title> {text} </Card.Title>
        
 <Example/>
-<Skeleton/>
+< AiFillAmazonCircle size={100} />
         <CustomDNALoader/>
-        <InifiniteLoader color={'red'}/>
+        {/* <InifiniteLoader color={'red'}/> */}
         {/* <CustomToast message={'i am card'}/> */}
         <InstagramHeart/>
        
