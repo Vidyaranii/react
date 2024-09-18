@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Basic from './card/card';
 import { Weather } from './weather/weather';
+import ReduceExample from './hooks/usereducer';
 
 
 
@@ -19,7 +20,7 @@ function App() {
   
   return (
     <>
-<Weather/>
+<ReduceExample/>
 
  </>
   )
