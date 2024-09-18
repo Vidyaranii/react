@@ -12,7 +12,7 @@ class BulbTask extends Component {
    
     clickHandler = () => {
         const newData = { 
-            src: "src/bulbtask/pic_bulboff.gif", 
+            src:  "https://toppng.com/uploads/preview/light-bulb-on-off-png-115539402943y50vxr5yi.png",
             name: `Bulb ${this.state.Data.length + 1}`,
             isOn: false 
         };
@@ -30,14 +30,15 @@ class BulbTask extends Component {
             Data: filteredData,
         });
     }
-
+   
+   
     
     toggleBulb = (index) => {
         const updatedData = this.state.Data.map((item, idx) => {
             if (idx === index) {
                 return {
                     ...item,
-                    src: item.isOn ? "src/bulbtask/pic_bulboff.gif" : ".src/bulbtask/pic_bulbon.png", 
+                    src: item.isOn ? " https://toppng.com/uploads/preview/light-bulb-on-off-png-115539402943y50vxr5yi.png" : "https://toppng.com/uploads/preview/light-bulb-on-off-png-11553940186lbyqngqg1y.png",
                     isOn: !item.isOn 
                 };
             }
