@@ -7,6 +7,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Basic from './card/card';
+import { Weather } from './weather/weather';
 
 
 
@@ -18,7 +19,7 @@ function App() {
   
   return (
     <>
-<Basic/>
+<Weather/>
 
  </>
   )
